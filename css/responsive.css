@@ -1,0 +1,130 @@
+/**************************************
+NOTES
+***************************************
+3 columns * 5 margins = 15% spaces
+[Margin of 2.5 on each side - 2.5 + 2.5 = 5]
+
+100% - 15% = 85%
+85% / 3 = 28.333333333%
+**************************************/
+
+
+@media screen and (min-width: 480px) {
+
+
+
+  /**************************************
+  TWO COLUMN LAYOUT
+  **************************************/
+
+  #primary {
+    width: 50%;
+    float: left;
+  }
+
+  #secondary {
+    width: 40%;
+    float: right;
+  }
+
+
+
+
+  /**************************************
+   PAGE: ARTIST
+  **************************************/
+
+ /* #gallery li {
+    width: 28.33333%;
+  }*/
+
+  /*#gallery li:nth-child(4n){
+    clear: left;
+  }*/
+
+}
+
+
+
+
+@media screen and (min-width: 660px) {
+
+  /**************************************
+   HEADER
+  **************************************/
+
+  nav {
+    font-size: 1.15em;
+    background: none;
+  }
+
+  nav a {
+  padding: 0 15px;
+  }
+
+  #logo {
+    max-width: 250px;
+    font-size: 1.2em;
+  }
+
+  h1 {
+    margin-top: 40px;
+    font-size: 4.1em;
+  }
+
+  h2 {
+    font-size: 0.825em;
+    margin-bottom: 10px;
+  }
+
+  header {
+    border-bottom: 5px solid #fff;
+    margin-bottom: 20px;
+    padding-top: 15px;
+  }
+
+
+
+  /**************************************
+   PAGE: MAIN
+  **************************************/
+
+  .profile-photo {
+    margin: 0 auto 20px;
+    max-width: 450px;
+  }
+
+  .contact-info {
+    font-size: 1.2em;
+    padding: 4% 0;
+  }
+
+  .contact-info a {
+    padding: 0 30px;
+  }
+
+
+  /**************************************
+   PAGE: ENGINEER
+  **************************************/
+
+  .engineer-infograph {
+    max-width: 500px;
+  }
+
+
+   /**************************************
+   PAGE: PROJECTS
+  **************************************/
+
+  #wrapper {
+    max-width: 600px;
+  }
+
+  #gallery li {
+    width: 20%;
+    margin: 0;
+  }
+
+
+}
